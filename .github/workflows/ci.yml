@@ -3,7 +3,7 @@ name: Continuous Integration
 on:
   pull_request:
     branches:
-      - salman
+      - main
  
 jobs:
   automation-test-job:
