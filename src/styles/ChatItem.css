@@ -1,0 +1,66 @@
+.thread-item {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .thread-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .thread-item__detail {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .thread-item__detail header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .thread-item__created-at {
+    color: #888;
+  }
+  
+  .thread-item__user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .thread-item__user-info img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .thread-item__likes {
+    display: flex;
+    align-items: center;
+  }
+  
+  .thread-item__likes button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .thread-item__likes button span {
+    margin-left: 5px;
+  }
+  
+  .thread-item__user-name {
+    margin-top: 10px;
+  }
+  
+  .thread-item__user-name span {
+    font-weight: bold;
+  }
+  
