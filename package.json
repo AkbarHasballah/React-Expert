@@ -9,7 +9,8 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "test": "vitest --no-watch",
-    "e2e": "cypress run"
+    "e2e": "cypress run",
+    "ci:test": "vitest --no-watch && start-server-and-test dev http-get://0.0.0.0:5173 e2e"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.3",
@@ -50,6 +51,7 @@
     "eslint-plugin-react-refresh": "^0.4.5",
     "globals": "^15.4.0",
     "jsdom": "^24.1.0",
+    "start-server-and-test": "^2.0.4",
     "vite": "^5.1.6",
     "vitest": "^1.6.0"
   }
