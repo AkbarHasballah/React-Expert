@@ -6,7 +6,7 @@ import { toast } from 'react-hot-toast';
 import SubmitLogin from '../components/SubmitLogin';
 import { asyncSetAuthUser } from '../states/authUser/action';
 
-function LoginPagehu() {
+function LoginPage() {
   const dispatch = useDispatch();
 
   const handleLogin = ({ email, password }) => {
